@@ -1,0 +1,20 @@
+{
+  "name": "Getting Started Example",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": [
+    "storage",
+    "declarativeContent"
+  ],
+  "background": {
+    "scripts": [
+      "background.js",
+      "jquery-3.3.1.min.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
