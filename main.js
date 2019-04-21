@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    alert("test")
+})
+
+
 $("button").click(function() {
     $.post('https://yingzheng.000webhostapp.com/', function (data) {
         if (data) {
